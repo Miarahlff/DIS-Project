@@ -5,10 +5,10 @@ import psycopg2.extras
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
 
-DB_HOST = "localhost"
-DB_NAME = "postgres"
-DB_USER = "postgres"
-DB_PASS = "Rahlff28"
+DB_HOST = "XXX"
+DB_NAME = "XXX"
+DB_USER = "XXX"
+DB_PASS = "XXX"
 
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
 def fetch_beer_ratings():
